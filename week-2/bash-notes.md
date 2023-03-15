@@ -14,4 +14,35 @@ The goal of this level is for you to log into the game using SSH. The host to wh
 There is picture as a confirmation of successfully completed level 0  
 ![Level 0](slike/bandit0.png)
 
+I used commands below:
+'''
+$ ssh -p 2220 bandit0@bandit.labs.overthewire.org
+$ cat readme
+'''
+
+#### LEVEL 1
+
+The password for the next level is stored in a file called - located in the home directory.
+
+There is picture as a confirmation of successfully completed level 0  
+![Level 1](slike/bandit1.png)
+
+I used commands below:
+'''
+$ ssh -p 2220 bandit1@bandit.labs.overthewire.org
+$ cat < -
+'''
+
+
+#### LEVEL 2
+
+
+There is picture as a confirmation of successfully completed level 0  
+![Level 0](slike/bandit0.png)
+
+I used commands below:
+'''
+$ ssh -p 2220 bandit0@bandit.labs.overthewire.org
+$ cat readme
+'''
 
