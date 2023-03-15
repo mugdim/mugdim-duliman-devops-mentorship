@@ -119,10 +119,10 @@ There is picture as a confirmation of successfully completed level 7
 ![Level 0](slike/bandit7_1.png)  
 
 I used commands below:  
-'''
+```
 $ ssh -p 2220 bandit7@bandit.labs.overthewire.org  
 $ cat data.txt | grep millionth  -#ispisujemo samo liniju u kojoj se spominje rijec millionth  
-'''
+```
 
 #### LEVEL 8 
 
@@ -132,10 +132,10 @@ There is picture as a confirmation of successfully completed level 8
 ![Level 0](slike/bandit8.png)  
 
 I used commands below:  
-'''
+```
 $ ssh -p 2220 bandit8@bandit.labs.overthewire.org  
 $ sort data.txt | uniq -u  -#sortiramo pa ispisujemo samo liniju koja se jednom spominje u data.txt  
-'''
+```
 
 #### LEVEL 9  
 
@@ -145,10 +145,10 @@ There is picture as a confirmation of successfully completed level 9
 ![Level 0](slike/bandit9.png)  
 
 I used commands below:    
-'''
+```
 $ ssh -p 2220 bandit9@bandit.labs.overthewire.org  
 $ strings data.txt | grep '===' -#ispisuje niz karaktera koji se nalaze u file-u uz ponavljanja niza jednakosti  
-'''
+```
 
 #### LEVEL 10
 
@@ -158,8 +158,8 @@ There is picture as a confirmation of successfully completed level 10
 ![Level 0](slike/bandit10.png)  
 
 I used commands below:
-'''
+```
 $ ssh -p 2220 bandit10@bandit.labs.overthewire.org  
 $ base64 -d data.txt  -#komanda base64 kodira/dekodira podatke i ispisuje  
-'''
+```
 
