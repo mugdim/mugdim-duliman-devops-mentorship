@@ -15,10 +15,10 @@ There is picture as a confirmation of successfully completed level 0
 ![Level 0](slike/bandit0.png)
 
 I used commands below:
-'''
+```
 $ ssh -p 2220 bandit0@bandit.labs.overthewire.org
 $ cat readme
-'''
+```
 
 #### LEVEL 1
 
