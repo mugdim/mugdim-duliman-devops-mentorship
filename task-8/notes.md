@@ -1,4 +1,4 @@
-# TASK-8: Implement SSL Let's Encrypt, migrate to AWS SSM    
+# TASK-8: Implement SSL Let's Encrypt, migrate to AWS ACM 
 ### Week 9  
 
 ### U nastavku su slike i kratka objašnjenja po tačkama u opisu task-a.
