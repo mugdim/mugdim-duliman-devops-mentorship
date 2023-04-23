@@ -13,7 +13,7 @@ aws route53 change-resource-record-sets --hosted-zone-id Z3LHP8UIUC8CDK --change
 
 U nastavku slike kao verifikacija SSL certifikata kreiranog preko Let's Encrypt  
 
-![Level 0](slike/kreiranje_certifakata.png)  
+![Level 0](slike/kreiranje_certifikata.png)  
 
 ![Level 0](slike/certifikat.png)  
 
