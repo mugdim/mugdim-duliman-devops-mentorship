@@ -11,8 +11,10 @@ Zahtjeve na domenu mugdim-djuliman.awsbosnia.com sam uputio na javnu ip adresu k
 aws route53 change-resource-record-sets --hosted-zone-id Z3LHP8UIUC8CDK --change-batch '{"Changes":[{"Action":"DELETE","ResourceRecordSet":{"Name":"mugdim-djuliman.awsbosnia.com.","Type":"A","TTL":60,"ResourceRecords":[{"Value":"54.226.59.97"}]}}]}'  
 ```
 
-U nastavku slike kao verifikacija SSL certifikata kreiranog preko Let's Encrypt
+U nastavku slike kao verifikacija SSL certifikata kreiranog preko Let's Encrypt  
+
 ![Level 0](slike/kreiranje_certifakata.png)  
+
 ![Level 0](slike/certifikat.png)  
 
 Autorenewal certifikata sam definisao putem crontab-a i skripte sa sljedećeg linka [CertBot](https://eff-certbot.readthedocs.io/en/stable/using.html#setting-up-automated-renewal)  
@@ -34,7 +36,8 @@ Kreirao sam novi certifikat preko ACM od Amazona i editovao sam listener. Na sli
 
 ### Ovim je TASK-8 završen, listenere koje sam dodao u ALB uvijek upućuju na https.
 
-U nastavku je slika nginx conf file za ALB.
+U nastavku je slika nginx conf file za ALB.  
+
 ![Level 0](slike/nginx_conf.png)  
 
 
