@@ -14,7 +14,7 @@ U folderu slike se nalaze i .html file-ovi.
 
 ![Level 0](slike/5_cloudfront.png)  
 
-![Level 0](slike/6_dns_record..png)  
+![Level 0](slike/6_dns_record.png)  
 
 
 
