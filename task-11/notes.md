@@ -50,7 +50,8 @@ enkripciju kao na slici ispod.
 ![Level 0](slike/S3_bucket_KMS.png)  
 Kopirao sam ARN ključa i napravio dokument .elasticbeanstalk, kojeg sam stavio u zip i 
 upload-ovao na S3 bucket. File lambda/lambda-create.yaml sam izmijenio da sam naziv S3 
-bucketa stavio naziv svog S3 bucketa i S3Key naziv uploadovanog kljuca. Ovaj file je dostupan 
+bucketa stavio naziv svog S3 bucketa i S3Key naziv uploadovanog kljuca.U istom file sam 
+izmijenio naziv policya za usera. Ovaj file je dostupan 
 unutar foldera all-files-and-dirs-used-for-this-task.  
 
 ![Level 0](slike/stack_lambda.png)
